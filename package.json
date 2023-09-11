@@ -1,0 +1,17 @@
+{
+  "name": "pre-entrega3-jose-del-miglio",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "browserslist": "defaults",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "sanitize.css": "^13.0.0"
+  }
+}
