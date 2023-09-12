@@ -73,6 +73,7 @@ p {
   color: #383a3d;
   margin: 16px 0;
   font-weight: 1.5;
+  font-size: medium;
 }
 p:first-child {
   margin-top: 0;
