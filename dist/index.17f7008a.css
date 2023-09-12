@@ -105,6 +105,12 @@ a:hover {
   text-decoration: underline;
 }
 
+@media (width >= 420px) and (width <= 768px) {
+  .navbar {
+    height: 80px;
+  }
+}
+
 .nleft {
   filter: grayscale(50%);
   background-image: url("Jorge sin fondo.374ecf9f.png");
