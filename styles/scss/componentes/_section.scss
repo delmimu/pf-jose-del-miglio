@@ -30,6 +30,22 @@
   display: block;
 }
 
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.galeria-item img:not(.logok) {
+  animation: pulse 1.5s;
+}
+
 @media (min-width: 601px) {
   .logok {
     max-width: 600px;
