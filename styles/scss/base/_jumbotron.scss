@@ -1,0 +1,17 @@
+.jumbotron {
+  background-image: url(/img/lavapelo.webp);
+  filter: grayscale(60%);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.jumbotron p {
+  color: white;
+  font-size: 20px;
+  text-align: right;
+  background-color: rgba(0, 0, 0, 0.614);
+}

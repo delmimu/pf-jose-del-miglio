@@ -1,4 +1,33 @@
 //base
-@import "/styles/scss/base";
+@import "../css/style.css";
+@import "base/colores";
+@import "base/utils";
+@import "base/typography";
+@import "base/jumbotron";
+//components
+@import "componentes/navbar";
+@import "componentes/article";
+@import "componentes/header";
+@import "componentes/section";
+@import "componentes/footer";
+@import "componentes/main";
+@import "componentes/variables";
+//layouts
+@import "layouts/base-layouts";
 //vendors
-@import "/vendors/vendors";
+@import "vendors/vendors";
+//variables
+
+// //base
+// @import "../css/style.css";
+// @import "/base/colores";
+// @import "../scss/base/utils";
+// @import "../scss/base/typography";
+// //components
+// @import "../scss/componentes/navbar";
+// //layouts
+// @import "../scss/layouts/base-layouts";
+// //vendors
+// @import "/vendors/vendors";
+// //variables
+// @import "./styles/scss/variables";

@@ -1,0 +1,16 @@
+.navbar {
+  height: 200px;
+  background-image: url(/img/baner.png);
+  background-size: cover;
+  background-position: top;
+}
+
+.nav-link {
+  text-emphasis-color: black !important;
+  font-size: 20px;
+  text-shadow: 0 5px 5px black;
+}
+
+a:hover {
+  text-decoration: underline;
+}

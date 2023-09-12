@@ -1,0 +1,48 @@
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.galeria-item {
+  flex: 0 0 400px;
+  height: 400px;
+  margin: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.galeria-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.logok-container {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
+.logok {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (min-width: 601px) {
+  .logok {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 550px) {
+  .logok {
+    max-width: 100%;
+  }
+
+  .galeria-item {
+    flex: 0 0 100%;
+    margin: 10px 0;
+  }
+}

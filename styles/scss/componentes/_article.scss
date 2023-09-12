@@ -1,0 +1,44 @@
+.nleft {
+  background-image: url(/img/Jorge\ sin\ fondo.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto;
+  filter: grayscale(50%);
+  /* width: 50%; */
+  height: 300px;
+}
+
+.nright {
+  text-align: justify;
+  /* margin: 20px; */
+  padding: 20px;
+}
+
+.art1 p {
+  margin-top: 30px;
+  font-size: larger;
+}
+
+img {
+  height: 450px;
+  width: 100%;
+}
+
+.d-inline-flex {
+  padding: 10px;
+  margin: 10px;
+  height: 650px;
+  width: 450px;
+}
+
+@media (min-width: 601px) {
+  .d-inline-flex {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 550px) {
+  .d-inline-flex {
+    max-width: 100%;
+  }
+}
