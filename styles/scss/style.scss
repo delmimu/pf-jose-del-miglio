@@ -1,19 +1,19 @@
 //base
 @import "../css/style.css";
-@import "/base/colores";
-@import "/base/utils";
-@import "/base/typography";
-@import "/base/jumbotron";
+// @import "base/colores";
+@import "base/utils";
+@import "base/typography";
+@import "base/jumbotron";
 //components
-@import "/componentes/navbar";
-@import "/componentes/article";
-@import "/componentes/header";
-@import "/componentes/section";
-@import "/componentes/footer";
-@import "/componentes/main";
-@import "/componentes/variables";
+@import "componentes/navbar";
+@import "componentes/article";
+@import "componentes/header";
+@import "componentes/section";
+@import "componentes/footer";
+@import "componentes/main";
+@import "componentes/variables";
 //layouts
-@import "/layouts/base-layouts";
+@import "layouts/base-layouts";
 //vendors
 @import "../../vendors/vendors";
 //variables
