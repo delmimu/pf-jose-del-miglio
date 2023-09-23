@@ -4,19 +4,17 @@
   background-size: cover;
   background-position: top;
 }
+.navbar-brand img {
+  max-width: 8.3333%; /* 1/12 del ancho del contenedor (100% / 12) */
+  height: auto; /* Ajusta automáticamente la altura para mantener la proporción original */
+}
 
 .nav-link {
   text-emphasis-color: black !important;
   font-size: 20px;
-  text-shadow: 0 5px 5px black;
+  text-shadow: 20 5px 5px black;
 }
 
 a:hover {
   text-decoration: underline;
 }
-
-// @media (min-width: 420px) and (max-width: 768px) {
-//   .navbar {
-//     height: 80px;
-//   }
-// }

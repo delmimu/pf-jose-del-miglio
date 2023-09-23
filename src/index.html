@@ -20,7 +20,11 @@
       crossorigin="anonymous"
     />
     <!-- bs 5.1 fin -->
-    <title>Inicio</title>
+    <meta
+      name="description"
+      content="Descubre nuestra peluquería de alto nivel en la Sexta Región, ubicada en San Fernando. Nuestros estilistas expertos te brindarán una experiencia única de belleza y estilo. ¡Ven y déjate consentir!"
+    />
+    <title>Tus Estilistas en San Fernando | Jorge Escobar Peluquerías</title>
     <link rel="stylesheet" href="../styles/css/style.css" />
     <link
       rel="shortcut icon"
@@ -31,8 +35,17 @@
   <body class="base-layout">
     <!-- navbar ini-->
     <header class="base-header">
-      <nav class="navbar navbar-expand-sm navbar-dark">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container-fluid">
+          <div class="col-6 d-sm-none">
+            <a class="navbar-brand" href="#">
+              <img
+                src="../img/logo pelu-fotor-bg-remover-20230922195459.png"
+                alt="Logo de la empresa"
+                class="img-fluid"
+              />
+            </a>
+          </div>
           <button
             class="navbar-toggler"
             type="button"
@@ -42,12 +55,12 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse d-flex justify-content-end"
+            class="collapse navbar-collapse justify-content-end"
             id="collapsibleNavbar"
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="../src/index.html">Home</a>
+                <a class="nav-link" href="../src/index.html">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
@@ -182,31 +195,29 @@
       </section>
     </main>
     <!-- footer -->
-    <footer class="base-footer">
-      <footer class="container-fluid">
-        <div class="row">
-          <div class="redes col-sm-6">
-            <h3>Contacto</h3>
-            <p>Dirección: Cardenal Caro 761, San Fernando, Chile.</p>
-            <p>Teléfono: +56722714219</p>
-          </div>
-          <div class="redesSociales col-sm-6">
-            <h3>Síguenos en facebook</h3>
-            <ul class="social-links">
-              <li>
-                <a
-                  href="https://www.facebook.com/p/Jorge-Escobar-Peluquerias-100070608200556/"
-                  target="_blank"
-                  ><i class="fab fa-facebook"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-12">
-            <p>Todos los derechos reservados</p>
-          </div>
+    <footer class="base-footer container-fluid">
+      <div class="row">
+        <div class="redes col-sm-6">
+          <h3>Contacto</h3>
+          <p>Dirección: Cardenal Caro 761, San Fernando, Chile.</p>
+          <p>Teléfono: +56722714219</p>
         </div>
-      </footer>
+        <div class="redesSociales col-sm-6">
+          <h3>Síguenos en facebook</h3>
+          <ul class="social-links">
+            <li>
+              <a
+                href="https://www.facebook.com/p/Jorge-Escobar-Peluquerias-100070608200556/"
+                target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-12">
+          <p>Todos los derechos reservados</p>
+        </div>
+      </div>
     </footer>
     <!-- bundle inicia -->
     <script
