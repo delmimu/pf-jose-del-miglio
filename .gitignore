@@ -1,4 +1,4 @@
 /base/colores.scss
-/node_modules
-/.parcel-cache
-/dist
+node_modules
+.parcel-cache
+dist
